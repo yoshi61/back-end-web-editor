@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('/regulatory-environment', 'RegulatoryEnvironmentController' );
+Route::resource('/industry-outlook', 'IndustryOutlookController' );
